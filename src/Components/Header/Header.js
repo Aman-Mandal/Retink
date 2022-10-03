@@ -2,13 +2,12 @@ import React from 'react'
 import logo from '../../Assets/Logo.png'
 import headerImg from '../../Assets/headerImg.png'
 
-
 const Header = () => {
   return (
     <header className=" w-full  bg-neutral-100">
       <div className="flex w-[85%] mx-auto py-16">
         <div className="flex-[0.55]">
-          <img className="h-8 mb-16" src={logo} />
+          <img className="h-8 mb-16" src={logo} alt="logo" />
           <h2 className="text-[#333232] font-sans text-5xl leading-[1.4] font-bold mb-8">
             Get Advanced AI <br />+ Expert Created
             <span className="text-light-purple"> Logos</span>
@@ -52,7 +51,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flex-[0.45]">
-          <img className="scale-110 transition-dog " src={headerImg} />
+          <img className="scale-110" alt="header-img" src={headerImg} />
         </div>
       </div>
     </header>

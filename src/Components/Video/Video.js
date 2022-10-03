@@ -8,7 +8,7 @@ const Video = () => {
         <p className="text-light-purple font-bold uppercase text-2xl pb-10">
           Explainer Video
         </p>
-        <img src={videoImg} />
+        <img alt="video-ss" src={videoImg} />
       </div>
     </section>
   )

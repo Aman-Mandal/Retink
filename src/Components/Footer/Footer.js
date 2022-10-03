@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="bg-[#EBEBEB]">
         <div className="w-full px-28 py-20 flex justify-between items-center">
           <div className="space-y-6">
-            <img src={logo} className="w-40 cursor-pointer" />
+            <img src={logo} alt="logo" className="w-40 cursor-pointer" />
             <p className="font-semibold text-xl cursor-pointer">
               Product by Retink Media UG
             </p>
